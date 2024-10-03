@@ -1,0 +1,13 @@
+body {
+    background-color: #DBCBA7 ;
+}
+
+article .lobby {
+    display: flexbox;
+    justify-content: space-evenly;
+}
+
+/*  Color Scheme
+    #474A59 - azul vesemir
+    #5F3B2D - marrom vesemir
+*/
