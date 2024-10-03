@@ -5,52 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Meu filme favorito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Metamorphous&family=Modern+Antiqua&display=swap"
+        rel="stylesheet">
+    <title>TW: Lenda do Lobo</title>
 </head>
 
 <body>
     <h1 id="title">
         The Witcher: Lenda do Lobo (Netflix)
     </h1>
-    
-    <article class="lobby">
-        <section id="sinopse">
-            <h2>Sinopse</h2>
-            <p>Ele escapou da pobreza para caçar monstros por dinheiro e glória, mas quando surge uma nova ameaça, Vesemir
-                precisa enfrentar os demônios do passado.</p>
-            </section>
-            <section id="basic_info">
+
+    <article class="main">
+        <div class="container">
+            <div id="sinopse">
+                <h2>Sinopse</h2>
+                <p>
+                    Ele escapou da pobreza para caçar monstros por dinheiro e glória, mas quando surge uma nova ameaça,
+                    Vesemir
+                    precisa enfrentar os demônios do passado.
+                </p>
+            </div>
+
+            <div id="basic_info">
                 <h2>Informações Básicas</h2>
                 <p><b>Ano:</b> 2021</p>
                 <p><b>Gênero:</b> Anime, Animação, Ação, Fantasia</p>
-        <p><b>Duração:</b> 83 min(1h23)</p>
-    </section>
+                <p><b>Duração:</b> 83 min(1h23)</p>
+            </div>
+        </div>
+
+        <div id="list">
+            <h2>Lista de Personagens</h2>
+            <ul id="top">
+                <li>
+                    <a href="#Vesimir_bottom">Vesemir</a>
+                </li>
+                <li>
+                    <a href="#lliyana_bottom">Lady lliyana Zerbst</a>
+                </li>
+                <li>
+                    <a href="#Tetra_bottom">Tetra Glicrest</a>
+                </li>
+                <li>
+                    <a href="#Deglan_bottom">Deglan</a>
+                </li>
+                <li>
+                    <a href="#Kitsu_bottom">Kitsu</a>
+                </li>
+                <li>
+                    <a href="#Geralt_bottom">Geralt</a>
+                </li>
+            </ul>
+        </div>
+    </article>
 
     <section id="tabela">
-        <h2>Lista de Personagens</h2>
-        <ul id="top">
-            <li>
-                <a href="#Vesimir_bottom">Vesemir</a>
-            </li>
-            <li>
-                <a href="#lliyana_bottom">Lady lliyana Zerbst</a>
-            </li>
-            <li>
-                <a href="#Tetra_bottom">Tetra Glicrest</a>
-            </li>
-            <li>
-                <a href="#Deglan_bottom">Deglan</a>
-            </li>
-            <li>
-                <a href="#Kitsu_bottom">Kitsu</a>
-            </li>
-            <li>
-                <a href="#Geralt_bottom">Geralt</a>
-            </li>
-        </ul>
-    </article>
-        
-        <table border="1">
+        <table border="1" cellpadding="10" cellspacing="0">
             <tr>
                 <th>Personagem</th>
                 <th>Ator/Atriz (Original)</th>
@@ -120,15 +133,17 @@
             <tr>
                 <td colspan="5"><a href="#top">Voltar para a <b>Lista de Personagens</b>.</a></td>
             </tr>
-
         </table>
-        <section id="trailer">
+    </section>
+
+    <article class="trailer">
+        <div id="trailer">
             <h2>Trailer do filme</h2>
             <a href="https://www.youtube.com/watch?v=4ozmknhP7j4" target="_blank">
                 link para trailer.
             </a>
-        </section>
-    </section>
+        </div>
+    </article>
 </body>
 
 </html>

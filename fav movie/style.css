@@ -1,13 +1,37 @@
 body {
-    background-color: #DBCBA7 ;
+    font-family: "Modern Antiqua";
+    background-color: #DBCBA7;
 }
 
-article .lobby {
-    display: flexbox;
+.container {
+    display:inline-flex;
+    gap: 10px;
     justify-content: space-evenly;
+    width: 100%;
 }
 
-/*  Color Scheme
+#sinopse, #basic_info {
+    border: 1.5px solid #000000;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 50%;
+}
+#list, .trailer {
+    text-align: justify;
+    border: 1.5px solid #000000;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#tabela {
+    overflow: auto;
+    width: 100%;
+}
+
+/*  
+    Color Scheme
     #474A59 - azul vesemir
     #5F3B2D - marrom vesemir
 */
